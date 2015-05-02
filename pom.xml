@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.sf.m-m-m</groupId>
+  <!--
+  <parent>
+    <groupId>net.sf.m-m-m</groupId>
+    <artifactId>mmm</artifactId>
+    <version>2.0.0</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+  -->
+  <artifactId>mmm-l10n</artifactId>
+  <version>dev</version>
+  <packaging>pom</packaging>
+  <name>${project.artifactId}</name>
+  <description>localization (l10n) contains the texts and configuraitons for various locales (languages and contries).</description>
+  <properties>
+    <org.springframework.version>4.0.5.RELEASE</org.springframework.version>
+    <org.hibernate.version>4.3.5.Final</org.hibernate.version>
+    <net.sf.mmm.l10n.version>1.0.0-SNAPSHOT</net.sf.mmm.l10n.version>
+  </properties>
+
+  <modules>
+    <!--<module>mmm-l10n-ar</module>
+    <module>mmm-l10n-bg</module>
+    <module>mmm-l10n-ca</module>
+    <module>mmm-l10n-cs</module>
+    <module>mmm-l10n-da</module>-->
+    <module>mmm-l10n-de</module>
+    <!--<module>mmm-l10n-en-GB</module>
+    <module>mmm-l10n-es</module>
+    <module>mmm-l10n-fi</module>-->
+    <module>mmm-l10n-fr</module>
+    <!--<module>mmm-l10n-hi</module>
+    <module>mmm-l10n-hu</module>
+    <module>mmm-l10n-is</module>
+    <module>mmm-l10n-it</module>
+    <module>mmm-l10n-iw</module>
+    <module>mmm-l10n-ja</module>
+    <module>mmm-l10n-ko</module>
+    <module>mmm-l10n-lt</module>
+    <module>mmm-l10n-lv</module>
+    <module>mmm-l10n-nl</module>
+    <module>mmm-l10n-nl-BE</module>
+    <module>mmm-l10n-no</module>
+    <module>mmm-l10n-pl</module>
+    <module>mmm-l10n-pt</module>
+    <module>mmm-l10n-sh</module>
+    <module>mmm-l10n-sk</module>
+    <module>mmm-l10n-sl</module>
+    <module>mmm-l10n-sr</module>
+    <module>mmm-l10n-sv</module>
+    <module>mmm-l10n-th</module>
+    <module>mmm-l10n-tr</module>
+    <module>mmm-l10n-zh</module>
+    <module>mmm-l10n-zh-HK</module>
+    <module>mmm-l10n-zh-TW</module>-->
+    <module>mmm-l10n-ALL</module>
+  </modules>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>net.sf.m-m-m</groupId>
+        <artifactId>mmm-l10n-ALL</artifactId>
+        <type>pom</type>
+        <version>${net.sf.mmm.l10n.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.sf.m-m-m</groupId>
+        <artifactId>mmm-l10n-de</artifactId>
+        <version>${net.sf.mmm.l10n.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.sf.m-m-m</groupId>
+        <artifactId>mmm-l10n-en-GB</artifactId>
+        <version>${net.sf.mmm.l10n.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>net.sf.m-m-m</groupId>
+        <artifactId>mmm-l10n-fr</artifactId>
+        <version>${net.sf.mmm.l10n.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  
+</project>
