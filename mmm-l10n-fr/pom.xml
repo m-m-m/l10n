@@ -4,9 +4,9 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>net.sf.m-m-m</groupId>
-    <artifactId>mmm-l10n</artifactId>
+    <artifactId>mmm-l10n-modules</artifactId>
     <version>dev</version>
-    <relativePath>../pom.xml</relativePath>
+    <relativePath>../mmm-l10n-modules/pom.xml</relativePath>
   </parent>
   <artifactId>mmm-l10n-fr</artifactId>
   <version>${net.sf.mmm.l10n.version}</version>
