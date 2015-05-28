@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hyphenation hyphen="-">
-<!-- 
-Taken and converted to XML from 
+<!--
+Taken and converted to XML from
 http://tug.org/svn/texhyphen/trunk/hyph-utf8/tex/generic/hyph-utf8/patterns/hyph-de-1996.tex?revision=278
 and licensed unter ASL 2.0 with friendly permission of Werner Lemberg (wl@gnu.org).
 -->
-<!-- 
+<!--
 % dehyphn-x-2009-06-19.pat
 
 \message{German Hyphenation Patterns (Reformed Orthography, 2006) `dehyphn-x' 2009-06-19 (WL)}
@@ -15077,7 +15077,7 @@ and licensed unter ASL 2.0 with friendly permission of Werner Lemberg (wl@gnu.or
 <p>zers2</p>
 <p>2z1ersa</p>
 <p>4z3erste</p>
-<p>4z3erstr</p>
+<!-- <p>4z3erstr</p>-->
 <p>3zert</p>
 <p>zert1a4</p>
 <p>zer4t3ag</p>
