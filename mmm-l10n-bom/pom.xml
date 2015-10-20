@@ -16,8 +16,6 @@
 
   <properties>
     <mmm.flatten.mode>bom</mmm.flatten.mode>
-    <!-- Internal project versions -->
-    <net.sf.mmm.l10n.version>1.0.0-SNAPSHOT</net.sf.mmm.l10n.version>
   </properties>
 
   <dependencyManagement>
