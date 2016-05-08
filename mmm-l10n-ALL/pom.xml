@@ -27,5 +27,9 @@
       <groupId>${project.groupId}</groupId>
       <artifactId>mmm-l10n-fr</artifactId>
     </dependency>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>mmm-l10n-es</artifactId>
+    </dependency>
   </dependencies>  
 </project>

@@ -32,15 +32,16 @@
         <artifactId>mmm-l10n-de</artifactId>
         <version>${net.sf.mmm.l10n.version}</version>
       </dependency>
-      <dependency>
-        <groupId>net.sf.m-m-m</groupId>
-        <artifactId>mmm-l10n-fr</artifactId>
-        <version>${net.sf.mmm.l10n.version}</version>
-      </dependency>
       <!--
       <dependency>
         <groupId>net.sf.m-m-m</groupId>
         <artifactId>mmm-l10n-en-GB</artifactId>
+        <version>${net.sf.mmm.l10n.version}</version>
+      </dependency>
+      -->
+      <dependency>
+        <groupId>net.sf.m-m-m</groupId>
+        <artifactId>mmm-l10n-fr</artifactId>
         <version>${net.sf.mmm.l10n.version}</version>
       </dependency>
       <dependency>
@@ -48,7 +49,6 @@
         <artifactId>mmm-l10n-es</artifactId>
         <version>${net.sf.mmm.l10n.version}</version>
       </dependency>
-      -->
     </dependencies>
   </dependencyManagement>
 </project>
