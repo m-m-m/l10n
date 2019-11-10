@@ -1,13 +1,10 @@
-= Mature Modular Meta-framework (mmm)
+image:https://raw.github.com/m-m-m/mmm/master/src/site/resources/images/logo.png[logo,link="https://m-m-m.github.io"]
 
-image:https://raw.github.com/m-m-m/mmm/master/src/site/resources/images/logo.png[logo]
-
-== Welcome to the wonderful world of http://m-m-m.sourceforge.net/index.html[mmm]
+= mmm-l10n
 
 image:https://travis-ci.org/m-m-m/l10n.svg?branch=master["build-status",link="https://travis-ci.org/m-m-m/l10n"]
 
-== mmm-l10n
-Localization bundles for different languages.
+`mmm-l10n` provides localization bundles for different languages.
 
 Please help us to improve localization and contribute if you are native speaker of a specific language. Currently we only have the following languages supported:
 
