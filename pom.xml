@@ -3,34 +3,24 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>net.sf.m-m-m</groupId>
+    <groupId>io.github.m-m-m</groupId>
     <artifactId>mmm</artifactId>
-    <version>2.7.0</version>
+    <version>1</version>
     <relativePath>../mmm-parent/pom.xml</relativePath>
   </parent>
-  <artifactId>mmm-l10n</artifactId>
-  <version>dev-SNAPSHOT</version>
+  <artifactId>mmm-l10n-parent</artifactId>
+  <version>${revision}${changelist}</version>
   <packaging>pom</packaging>
   <name>${project.artifactId}</name>
   <description>localization (l10n) contains the texts and configurations for various locales (languages and countries).</description>
   <properties>
-    <net.sf.mmm.l10n.version>1.7.0-SNAPSHOT</net.sf.mmm.l10n.version>
+    <mmm.repository>l10n</mmm.repository>
+    <revision>1.0.0</revision>
+    <changelist>-SNAPSHOT</changelist>
   </properties>
 
   <modules>
-    <module>mmm-l10n-bom</module>
-    <module>mmm-l10n-modules</module>
+    <module>core</module>
   </modules>
-
-  <issueManagement>
-    <system>GitHub</system>
-    <url>http://github.com/m-m-m/l10n/issues</url>
-  </issueManagement>
-  <scm>
-    <connection>scm:git:git@github.com:m-m-m/l10n.git</connection>
-    <developerConnection>scm:git:git@github.com:m-m-m/l10n.git</developerConnection>
-    <url>https://github.com/m-m-m/l10n/tree/master</url>
-    <tag/>
-  </scm>
   
 </project>
