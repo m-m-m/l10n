@@ -6,8 +6,7 @@ env:
   - secure: hRWuLW0Ig3+yNUaxdRK8XO61atAF3gqvQMsZGMv/KbL50E6mikRIp9vwZXTj1L+9deCnbXDF8/87uk3qy+s4EzGssrk0h++S9VH3EyMA+RRLUUWFQRudXnB3zN3knGue8FBHtaCcCqXy8h6eLID7dDeLfHpqXNjnIvUxM+Lc3f0=
   - secure: ITwpGPSP5aR8TJqqlmTtLjmvKK4ymArfE1bK4AVitzQRkVRKteS4CRVIYuF2gBjtX4ShByi3fRqPWt1t2gpPzJRp8F+tTf3IsTyC7dov+GiIq5lFafDG7LXoyFvS6sGrmRF1IozxvMwi8FWMkweELcGHO6L0k14pgXqbyB7ksP0=
 script: mvn --settings .mvn/settings.xml install
-after_script: '[[ $TRAVIS_BRANCH == "master" ]] && mvn --settings .mvn/settings.xml
-  deploy'
+after_script: '[[ $TRAVIS_BRANCH == "master" ]] && mvn --settings .mvn/settings.xml -DskipTests=true deploy'
 sudo: false
 cache:
   directories: "$HOME/.m2"
