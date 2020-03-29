@@ -3,8 +3,8 @@ jdk:
 - openjdk11
 env:
   global:
-  - secure: hRWuLW0Ig3+yNUaxdRK8XO61atAF3gqvQMsZGMv/KbL50E6mikRIp9vwZXTj1L+9deCnbXDF8/87uk3qy+s4EzGssrk0h++S9VH3EyMA+RRLUUWFQRudXnB3zN3knGue8FBHtaCcCqXy8h6eLID7dDeLfHpqXNjnIvUxM+Lc3f0=
-  - secure: ITwpGPSP5aR8TJqqlmTtLjmvKK4ymArfE1bK4AVitzQRkVRKteS4CRVIYuF2gBjtX4ShByi3fRqPWt1t2gpPzJRp8F+tTf3IsTyC7dov+GiIq5lFafDG7LXoyFvS6sGrmRF1IozxvMwi8FWMkweELcGHO6L0k14pgXqbyB7ksP0=
+  - secure: cUsEowyqrDN2pdKP0zvA87EyHDEy9SRiyeZW3U+8SODOy8e/G+0cz0CpMFQhzFLqVhxI8j6WLxerEyMutPhe2z7ztT0waJziOXOaIlzLAmMVUQ+9BVTomuU0i0mN0956+0b2lwTOdilbikhTlpjLdDYcrgDlaxYaTDceETQuRys=
+  - secure: F4gSf65CtXpX4CrFTnn21ewnESfOWQiAzqHVkJ3rP2bDFuhSjE5202mGxSAtUTvaVXgph39LJivKe/RSkYz86aqXBeUXkuRbtxck8eN0eo7QJ2YeqEQsMevOgIFRq80oUURmF9aOaRBY8RjDgsxlO4rVmGBotRMof7VNJnQ6xBU=
 install: skip
 script: mvn --settings .mvn/settings.xml install && ([[ $TRAVIS_BRANCH != "master" ]] || mvn --settings .mvn/settings.xml -DskipTests=true deploy)
 sudo: false
