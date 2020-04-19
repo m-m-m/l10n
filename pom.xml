@@ -5,8 +5,8 @@
   <parent>
     <groupId>io.github.m-m-m</groupId>
     <artifactId>mmm</artifactId>
-    <version>7</version>
-    <relativePath>../mmm-parent/pom.xml</relativePath>
+    <version>9</version>
+    <relativePath>../parent/pom.xml</relativePath>
   </parent>
   <artifactId>mmm-l10n-parent</artifactId>
   <version>${revision}${changelist}</version>
