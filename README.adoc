@@ -11,7 +11,7 @@ image:https://img.shields.io/maven-central/v/io.github.m-m-m/mmm-l10n.svg?label=
 
 Please help us to improve localization and contribute if you are native speaker of a specific language. Currently we only have the following languages supported:
 
-* English (US as default)
-* German (mother tongue speaker)
-* French (average translation)
-* Spanish (poor translation)
+* https://github.com/m-m-m/l10n/tree/master/en[English] (Brittish)
+* https://github.com/m-m-m/l10n/tree/master/de[German] (mother tongue speaker)
+* https://github.com/m-m-m/l10n/tree/master/fr[French] (average translation)
+* https://github.com/m-m-m/l10n/tree/master/es[Spanish] (poor translation)
