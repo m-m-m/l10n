@@ -15,8 +15,6 @@
   <description>localization (l10n) contains the texts and configurations for various locales (languages and countries).</description>
   <properties>
     <mmm.repository>l10n</mmm.repository>
-    <revision>1.0.0</revision>
-    <changelist>-SNAPSHOT</changelist>
   </properties>
 
   <modules>
