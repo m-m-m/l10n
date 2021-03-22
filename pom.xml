@@ -9,12 +9,13 @@
     <relativePath>../parent/pom.xml</relativePath>
   </parent>
   <artifactId>mmm-l10n-parent</artifactId>
-  <version>${revision}${changelist}</version>
+  <version>${revision}</version>
   <packaging>pom</packaging>
   <name>${project.artifactId}</name>
   <description>localization (l10n) contains the texts and configurations for various locales (languages and countries).</description>
   <properties>
     <mmm.repository>l10n</mmm.repository>
+    <revision>0-SNAPSHOT</revision>
   </properties>
 
   <modules>
