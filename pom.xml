@@ -5,7 +5,7 @@
   <parent>
     <groupId>io.github.m-m-m</groupId>
     <artifactId>mmm</artifactId>
-    <version>18</version>
+    <version>20</version>
     <relativePath>../parent/pom.xml</relativePath>
   </parent>
   <artifactId>mmm-l10n-parent</artifactId>
@@ -15,7 +15,6 @@
   <description>localization (l10n) contains the texts and configurations for various locales (languages and countries).</description>
   <properties>
     <mmm.repository>l10n</mmm.repository>
-    <revision>0-SNAPSHOT</revision>
   </properties>
 
   <modules>
