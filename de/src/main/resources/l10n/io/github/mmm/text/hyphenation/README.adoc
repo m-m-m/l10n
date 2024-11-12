@@ -1,0 +1,8 @@
+== Copyright notice
+
+The contents of the files (patterns* and exceptions*) in this directory are taken from
+https://github.com/hyphenation/tex-hyphen/blob/5ae744dbee402f9ef148c59d8479883925c7b59c/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-de-1996.tex
+
+Copyright (C) 2013-2021 Stephan Hennig, Werner Lemberg, Günter Milde, Sander van Geloven, Georg Pfeiffer, Gisbert W. Selke, Tobias Wendorf, Keno Wehr
+
+Licensed under http://opensource.org/licenses/mit-license.php[MIT License]

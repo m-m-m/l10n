@@ -1,0 +1,8 @@
+== Copyright notice
+
+The contents of the files (patterns* and exceptions*) in this directory are taken from
+https://github.com/hyphenation/tex-hyphen/blob/5ae744dbee402f9ef148c59d8479883925c7b59c/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-es.tex
+
+Copyright (C) 1993, 1997 Javier Bezos, 2001-2019 Javier Bezos, CervanTeX
+
+Licensed under http://opensource.org/licenses/mit-license.php[MIT License]
