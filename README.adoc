@@ -1,6 +1,6 @@
 image:https://m-m-m.github.io/logo.svg[logo,width="150",link="https://m-m-m.github.io"]
 
-image:https://img.shields.io/github/license/m-m-m/l10n.svg?label=License["Apache License, Version 2.0",link=https://github.com/m-m-m/l10n/blob/master/LICENSE]
+image:https://img.shields.io/github/license/m-m-m/l10n.svg?label=License["Apache License, Version 2.0",link=https://github.com/m-m-m/l10n/blob/main/LICENSE]
 image:https://github.com/m-m-m/l10n/actions/workflows/build.yml/badge.svg["Build Status",link="https://github.com/m-m-m/l10n/actions/workflows/build.yml"]
 
 = mmm-l10n
@@ -11,7 +11,7 @@ image:https://img.shields.io/maven-central/v/io.github.m-m-m/mmm-l10n.svg?label=
 
 Please help us to improve localization and contribute if you are native speaker of a specific language. Currently we only have the following languages supported:
 
-* https://github.com/m-m-m/l10n/tree/master/en[English] (Brittish)
-* https://github.com/m-m-m/l10n/tree/master/de[German] (mother tongue speaker)
-* https://github.com/m-m-m/l10n/tree/master/fr[French] (average translation)
-* https://github.com/m-m-m/l10n/tree/master/es[Spanish] (poor translation)
+* https://github.com/m-m-m/l10n/tree/main/en[English] (British)
+* https://github.com/m-m-m/l10n/tree/main/de[German] (mother tongue speaker)
+* https://github.com/m-m-m/l10n/tree/main/fr[French] (average translation)
+* https://github.com/m-m-m/l10n/tree/main/es[Spanish] (poor translation)
